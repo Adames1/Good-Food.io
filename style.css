@@ -323,6 +323,7 @@ li {
 
 .content-form input,
 .content-form select {
+    width: 100%;
     padding: 1rem .75rem;
     outline: none;
     background-color: #16181F;
@@ -333,7 +334,7 @@ li {
 }
 
 .content-form input::placeholder,
-.content-form select {
+.content-form select::placeholder {
     color: #FFFF;
 }
 
